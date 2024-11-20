@@ -7,7 +7,7 @@
 Run this command in the terminal at the directory where you want to store this project:
 
 ```bash
-git clone https://github.com/nurturegrit/auto_grading_assignments.git
+git clone https://github.com/Autograding-using-Ai/Final_Project.git
 ```
 
 ### 2. Install Requirements
