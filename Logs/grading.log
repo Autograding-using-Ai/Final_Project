@@ -1,0 +1,118 @@
+2024-11-13 13:20:49,363 - INFO - Initializing GradeScheduler.
+2024-11-13 13:20:49,364 - INFO - Loading grading request queue from json.
+2024-11-13 13:20:49,364 - INFO - Keys\grading_schedules.json not found. Creating a new file.
+2024-11-13 13:20:49,368 - DEBUG - Priority queue created with 0 items.
+2024-11-13 13:20:49,394 - INFO - Requests left initialized to 150.
+2024-11-13 13:20:49,394 - INFO - Starting grading process.
+2024-11-13 13:20:49,394 - INFO - Stopping Grader!!
+2024-11-13 13:20:49,413 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-13 13:20:49,431 - DEBUG - Requests needed for Hello: 1
+2024-11-13 13:20:49,431 - DEBUG - New Assignment task added to queue: Hello sayan.saha.mtb.736146@gmail.com.
+2024-11-13 13:20:49,433 - INFO - Starting grading process.
+2024-11-13 13:20:49,433 - INFO - Grading Hello for sayan.saha.mtb.736146@gmail.com with 1 requests.
+2024-11-13 13:20:59,795 - INFO - Initializing GradeScheduler.
+2024-11-13 13:20:59,796 - INFO - Loading grading request queue from json.
+2024-11-13 13:20:59,796 - DEBUG - Priority queue created with 0 items.
+2024-11-13 13:20:59,796 - INFO - Requests left initialized to 150.
+2024-11-13 13:20:59,796 - INFO - Starting grading process.
+2024-11-13 13:20:59,797 - INFO - Stopping Grader!!
+2024-11-13 13:20:59,800 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-13 13:20:59,801 - DEBUG - Requests needed for Hello: 1
+2024-11-13 13:20:59,801 - DEBUG - New Assignment task added to queue: Hello sayan.saha.mtb.736146@gmail.com.
+2024-11-13 13:20:59,801 - INFO - Starting grading process.
+2024-11-13 13:20:59,801 - INFO - Grading Hello for sayan.saha.mtb.736146@gmail.com with 1 requests.
+2024-11-13 13:21:00,592 - INFO - Stopping Grader!!
+2024-11-13 13:21:00,595 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-13 13:21:09,991 - INFO - Stopping Grader!!
+2024-11-13 13:21:09,995 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-13 13:25:53,927 - INFO - Initializing GradeScheduler.
+2024-11-13 13:25:53,928 - INFO - Loading grading request queue from json.
+2024-11-13 13:25:53,951 - DEBUG - Priority queue created with 0 items.
+2024-11-13 13:25:53,971 - INFO - Requests left initialized to 149.
+2024-11-13 13:25:53,971 - INFO - Starting grading process.
+2024-11-13 13:25:53,971 - INFO - Stopping Grader!!
+2024-11-13 13:25:53,974 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-13 13:25:53,975 - DEBUG - Requests needed for Hello: 1
+2024-11-13 13:25:53,975 - DEBUG - Added to queue: Hello sayan.saha.mtb.736146@gmail.com.
+2024-11-13 13:25:53,975 - INFO - Starting grading process.
+2024-11-13 13:25:53,975 - INFO - Grading Hello for sayan.saha.mtb.736146@gmail.com with 1 requests.
+2024-11-13 13:26:04,466 - INFO - Stopping Grader!!
+2024-11-13 13:26:04,469 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-13 13:29:24,530 - INFO - Initializing GradeScheduler.
+2024-11-13 13:29:24,530 - INFO - Loading grading request queue from json.
+2024-11-13 13:29:24,533 - DEBUG - Priority queue created with 0 items.
+2024-11-13 13:29:24,546 - INFO - Requests left initialized to 148.
+2024-11-13 13:29:24,546 - INFO - Starting grading process.
+2024-11-13 13:29:24,547 - INFO - Stopping Grader!!
+2024-11-13 13:29:24,550 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-13 13:29:24,550 - DEBUG - Requests needed for Hello: 1
+2024-11-13 13:29:24,550 - DEBUG - Added to queue: Hello sayan.saha.mtb.736146@gmail.com.
+2024-11-13 13:29:24,550 - INFO - Starting grading process.
+2024-11-13 13:29:24,550 - INFO - Grading Hello for sayan.saha.mtb.736146@gmail.com with 1 requests.
+2024-11-13 13:29:33,992 - INFO - Stopping Grader!!
+2024-11-13 13:29:33,997 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-13 20:45:25,790 - INFO - Initializing GradeScheduler.
+2024-11-13 20:45:25,790 - INFO - Loading grading request queue from json.
+2024-11-13 20:45:25,805 - DEBUG - Priority queue created with 0 items.
+2024-11-13 20:45:25,820 - INFO - Requests left initialized to 147.
+2024-11-13 20:45:25,820 - INFO - Starting grading process.
+2024-11-13 20:45:25,821 - INFO - Stopping Grader!!
+2024-11-13 20:45:25,823 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-13 20:45:25,835 - DEBUG - Requests needed for Hello: 1
+2024-11-13 20:45:25,836 - DEBUG - Added to queue: Hello sayan.saha.mtb.736146@gmail.com.
+2024-11-13 20:45:25,836 - INFO - Starting grading process.
+2024-11-13 20:45:25,836 - INFO - Grading Hello for sayan.saha.mtb.736146@gmail.com with 1 requests.
+2024-11-13 20:45:40,823 - INFO - Stopping Grader!!
+2024-11-13 20:45:40,826 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-13 20:59:43,901 - INFO - Initializing GradeScheduler.
+2024-11-13 20:59:43,903 - INFO - Loading grading request queue from json.
+2024-11-13 20:59:43,904 - DEBUG - Priority queue created with 0 items.
+2024-11-13 20:59:43,905 - INFO - Requests left initialized to 146.
+2024-11-13 20:59:43,905 - INFO - Starting grading process.
+2024-11-13 20:59:43,905 - INFO - Stopping Grader!!
+2024-11-13 20:59:43,906 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-13 20:59:43,907 - DEBUG - Requests needed for Hello: 1
+2024-11-13 20:59:43,907 - DEBUG - Added to queue: Hello sayan.saha.mtb.736146@gmail.com.
+2024-11-13 20:59:43,907 - INFO - Starting grading process.
+2024-11-13 20:59:43,907 - INFO - Grading Hello for sayan.saha.mtb.736146@gmail.com with 1 requests.
+2024-11-13 20:59:54,673 - INFO - Stopping Grader!!
+2024-11-13 20:59:54,676 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-14 09:57:40,798 - INFO - Initializing GradeScheduler.
+2024-11-14 09:57:40,798 - INFO - Loading grading request queue from json.
+2024-11-14 09:57:40,800 - DEBUG - Priority queue created with 0 items.
+2024-11-14 09:57:40,802 - INFO - Requests left initialized to 150.
+2024-11-14 09:57:40,802 - INFO - Starting grading process.
+2024-11-14 09:57:40,802 - INFO - Stopping Grader!!
+2024-11-14 09:57:40,819 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-14 09:57:40,819 - DEBUG - Requests needed for Hello: 1
+2024-11-14 09:57:40,820 - DEBUG - Added to queue: Hello sayan.saha.mtb.736146@gmail.com.
+2024-11-14 09:57:40,820 - INFO - Starting grading process.
+2024-11-14 09:57:40,820 - INFO - Grading Hello for sayan.saha.mtb.736146@gmail.com with 1 requests.
+2024-11-14 09:57:45,119 - INFO - Stopping Grader!!
+2024-11-14 09:57:45,122 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-14 10:00:22,725 - INFO - Initializing GradeScheduler.
+2024-11-14 10:00:22,726 - INFO - Loading grading request queue from json.
+2024-11-14 10:00:22,729 - DEBUG - Priority queue created with 0 items.
+2024-11-14 10:00:22,730 - INFO - Requests left initialized to 149.
+2024-11-14 10:00:22,730 - INFO - Starting grading process.
+2024-11-14 10:00:22,730 - INFO - Stopping Grader!!
+2024-11-14 10:00:22,732 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-14 10:00:22,732 - DEBUG - Requests needed for Hello: 1
+2024-11-14 10:00:22,733 - DEBUG - Added to queue: Hello sayan.saha.mtb.736146@gmail.com.
+2024-11-14 10:00:22,733 - INFO - Starting grading process.
+2024-11-14 10:00:22,733 - INFO - Grading Hello for sayan.saha.mtb.736146@gmail.com with 1 requests.
+2024-11-14 10:00:25,984 - INFO - Stopping Grader!!
+2024-11-14 10:00:25,986 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-14 10:07:35,199 - INFO - Initializing GradeScheduler.
+2024-11-14 10:07:35,201 - INFO - Loading grading request queue from json.
+2024-11-14 10:07:35,204 - DEBUG - Priority queue created with 0 items.
+2024-11-14 10:07:35,205 - INFO - Requests left initialized to 148.
+2024-11-14 10:07:35,205 - INFO - Starting grading process.
+2024-11-14 10:07:35,205 - INFO - Stopping Grader!!
+2024-11-14 10:07:35,207 - INFO - Grading stopped! Assignments remaining in queue: 0.
+2024-11-14 10:07:35,224 - DEBUG - Requests needed for DSA_7: 2
+2024-11-14 10:07:35,224 - DEBUG - New Assignment task added to queue: DSA_7 sayan.saha.mtb.736146@gmail.com.
+2024-11-14 10:07:35,224 - INFO - Starting grading process.
+2024-11-14 10:07:35,224 - INFO - Grading DSA_7 for sayan.saha.mtb.736146@gmail.com with 2 requests.
+2024-11-14 10:07:52,404 - INFO - Stopping Grader!!
+2024-11-14 10:07:52,407 - INFO - Grading stopped! Assignments remaining in queue: 0.
