@@ -1,0 +1,738 @@
+2024-11-13 13:20:53,098 - INFO - Grade Once For Hello, sayan.saha.mtb.736146@gmail.com
+2024-11-13 13:20:53,098 - INFO - Starting grading process
+2024-11-13 13:20:53,103 - INFO - Initializing questions dictionary.
+2024-11-13 13:20:53,104 - DEBUG - Loaded question 1.
+2024-11-13 13:20:53,104 - INFO - Started Getting Solutions
+2024-11-13 13:20:53,120 - DEBUG - Loaded solution 1 from 3.
+2024-11-13 13:20:53,134 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-13 13:20:53,146 - DEBUG - load_verify_locations cafile='C:\\Users\\sayan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-13 13:20:53,676 - INFO - 
+-------------------------run_test_cases.py-------------
+Running Test Cases For
+Assignment: Hello
+Intern: 3
+2024-11-13 13:20:53,689 - INFO - Test Cases Passed 5, Out of 5
+2024-11-13 13:20:53,696 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Sabudh Foundation\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-13 13:20:53,885 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-13 13:20:53,885 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-13 13:20:54,363 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B8257A2A50>
+2024-11-13 13:20:54,364 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001B8256A6DE0> server_hostname='models.inference.ai.azure.com' timeout=5.0
+2024-11-13 13:20:54,865 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B82579C910>
+2024-11-13 13:20:54,866 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-13 13:20:54,867 - DEBUG - send_request_headers.complete
+2024-11-13 13:20:54,867 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-13 13:20:54,868 - DEBUG - send_request_body.complete
+2024-11-13 13:20:54,868 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-13 13:20:57,843 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 13 Nov 2024 07:50:56 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'x-ratelimit-remaining-tokens', b'1971464'), (b'request-context', b'appId='), (b'apim-request-id', b'45dafe01-5247-44ba-af7e-3fff5d54b067'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-remaining-requests', b'19989'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'71dfd490-5988-4e0d-96b7-ee024d40d895'), (b'x-content-type-options', b'nosniff'), (b'azureml-model-session', b'd014-20241024095218'), (b'x-ms-region', b'East US'), (b'x-envoy-upstream-service-time', b'2615'), (b'x-ms-client-request-id', b'Not-Set'), (b'x-aml-cluster', b'vienna-eastus2-01'), (b'x-request-time', b'2.735'), (b'Content-Encoding', b'gzip')])
+2024-11-13 13:20:57,844 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 13:20:57,844 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-13 13:20:57,846 - DEBUG - receive_response_body.complete
+2024-11-13 13:20:57,846 - DEBUG - response_closed.started
+2024-11-13 13:20:57,846 - DEBUG - response_closed.complete
+2024-11-13 13:20:57,846 - DEBUG - HTTP Response: POST https://models.inference.ai.azure.com/chat/completions "200 OK" Headers({'date': 'Wed, 13 Nov 2024 07:50:56 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'x-ratelimit-remaining-tokens': '1971464', 'request-context': 'appId=', 'apim-request-id': '45dafe01-5247-44ba-af7e-3fff5d54b067', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-remaining-requests': '19989', 'x-ms-rai-invoked': 'true', 'x-request-id': '71dfd490-5988-4e0d-96b7-ee024d40d895', 'x-content-type-options': 'nosniff', 'azureml-model-session': 'd014-20241024095218', 'x-ms-region': 'East US', 'x-envoy-upstream-service-time': '2615', 'x-ms-client-request-id': 'Not-Set', 'x-aml-cluster': 'vienna-eastus2-01', 'x-request-time': '2.735', 'content-encoding': 'gzip'})
+2024-11-13 13:20:57,846 - DEBUG - request_id: 71dfd490-5988-4e0d-96b7-ee024d40d895
+2024-11-13 13:20:57,854 - INFO - API request made.
+2024-11-13 13:20:57,855 - INFO - Graded question 1: score 95.0
+2024-11-13 13:20:57,855 - INFO - Stored grade: 95.0 for student ID 3
+2024-11-13 13:21:00,238 - INFO - Feedback sent to sayan.saha.mtb.736146@gmail.com
+2024-11-13 13:21:00,287 - DEBUG - close.started
+2024-11-13 13:21:00,288 - DEBUG - close.complete
+2024-11-13 13:21:02,331 - INFO - Grade Once For Hello, sayan.saha.mtb.736146@gmail.com
+2024-11-13 13:21:02,331 - INFO - Starting grading process
+2024-11-13 13:21:02,334 - INFO - Initializing questions dictionary.
+2024-11-13 13:21:02,334 - DEBUG - Loaded question 1.
+2024-11-13 13:21:02,335 - INFO - Started Getting Solutions
+2024-11-13 13:21:02,339 - DEBUG - Loaded solution 1 from 3.
+2024-11-13 13:21:02,341 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-13 13:21:02,344 - DEBUG - load_verify_locations cafile='C:\\Users\\sayan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-13 13:21:02,958 - INFO - 
+-------------------------run_test_cases.py-------------
+Running Test Cases For
+Assignment: Hello
+Intern: 3
+2024-11-13 13:21:02,967 - INFO - Test Cases Passed 4, Out of 5
+2024-11-13 13:21:02,975 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\nSolution has not passed test case with input [1, 'a', 1, 'b', 'a'] result [1, 'a', 'b']\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Sabudh Foundation\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-13 13:21:03,124 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-13 13:21:03,124 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-13 13:21:03,505 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000023CDC40E900>
+2024-11-13 13:21:03,505 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000023CDC336450> server_hostname='models.inference.ai.azure.com' timeout=5.0
+2024-11-13 13:21:03,994 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000023CDC4207D0>
+2024-11-13 13:21:03,994 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-13 13:21:03,995 - DEBUG - send_request_headers.complete
+2024-11-13 13:21:03,995 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-13 13:21:03,995 - DEBUG - send_request_body.complete
+2024-11-13 13:21:03,995 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-13 13:21:07,380 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 13 Nov 2024 07:51:06 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'x-ratelimit-remaining-tokens', b'1978447'), (b'request-context', b'appId='), (b'apim-request-id', b'f7e10f45-0ed3-4f6d-8ef9-9ef9a8a9bd86'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-remaining-requests', b'19990'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'5bf4209e-0f58-47a4-95d9-d5363905ab59'), (b'x-content-type-options', b'nosniff'), (b'azureml-model-session', b'd028-20241024085509'), (b'x-ms-region', b'East US'), (b'x-envoy-upstream-service-time', b'3108'), (b'x-ms-client-request-id', b'Not-Set'), (b'x-aml-cluster', b'vienna-eastus2-01'), (b'x-request-time', b'3.138'), (b'Content-Encoding', b'gzip')])
+2024-11-13 13:21:07,382 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 13:21:07,382 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-13 13:21:07,383 - DEBUG - receive_response_body.complete
+2024-11-13 13:21:07,384 - DEBUG - response_closed.started
+2024-11-13 13:21:07,384 - DEBUG - response_closed.complete
+2024-11-13 13:21:07,385 - DEBUG - HTTP Response: POST https://models.inference.ai.azure.com/chat/completions "200 OK" Headers({'date': 'Wed, 13 Nov 2024 07:51:06 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'x-ratelimit-remaining-tokens': '1978447', 'request-context': 'appId=', 'apim-request-id': 'f7e10f45-0ed3-4f6d-8ef9-9ef9a8a9bd86', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-remaining-requests': '19990', 'x-ms-rai-invoked': 'true', 'x-request-id': '5bf4209e-0f58-47a4-95d9-d5363905ab59', 'x-content-type-options': 'nosniff', 'azureml-model-session': 'd028-20241024085509', 'x-ms-region': 'East US', 'x-envoy-upstream-service-time': '3108', 'x-ms-client-request-id': 'Not-Set', 'x-aml-cluster': 'vienna-eastus2-01', 'x-request-time': '3.138', 'content-encoding': 'gzip'})
+2024-11-13 13:21:07,385 - DEBUG - request_id: 5bf4209e-0f58-47a4-95d9-d5363905ab59
+2024-11-13 13:21:07,395 - INFO - API request made.
+2024-11-13 13:21:07,396 - INFO - Graded question 1: score 75.0
+2024-11-13 13:21:07,396 - INFO - Stored grade: 75.0 for student ID 3
+2024-11-13 13:21:09,704 - INFO - Feedback sent to sayan.saha.mtb.736146@gmail.com
+2024-11-13 13:21:09,766 - DEBUG - close.started
+2024-11-13 13:21:09,768 - DEBUG - close.complete
+2024-11-13 13:25:55,939 - INFO - Grade Once For Hello, sayan.saha.mtb.736146@gmail.com
+2024-11-13 13:25:55,939 - INFO - Starting grading process
+2024-11-13 13:25:55,942 - INFO - Initializing questions dictionary.
+2024-11-13 13:25:55,942 - DEBUG - Loaded question 1.
+2024-11-13 13:25:55,943 - INFO - Started Getting Solutions
+2024-11-13 13:25:55,945 - DEBUG - Loaded solution 1 from 3.
+2024-11-13 13:25:55,946 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-13 13:25:55,957 - DEBUG - load_verify_locations cafile='C:\\Users\\sayan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-13 13:25:56,454 - INFO - 
+-------------------------run_test_cases.py-------------
+Running Test Cases For
+Assignment: Hello
+Intern: 3
+2024-11-13 13:25:56,461 - INFO - Test Cases Passed 4, Out of 5
+2024-11-13 13:25:56,469 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\nSolution has not passed test case with input [1, 'a', 1, 'b', 'a'] result [1, 'a', 'b']\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Sabudh Foundation\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-13 13:25:56,592 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-13 13:25:56,593 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-13 13:25:57,071 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000145939FE900>
+2024-11-13 13:25:57,071 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014593926450> server_hostname='models.inference.ai.azure.com' timeout=5.0
+2024-11-13 13:25:57,620 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014593A107D0>
+2024-11-13 13:25:57,620 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-13 13:25:57,620 - DEBUG - send_request_headers.complete
+2024-11-13 13:25:57,621 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-13 13:25:57,621 - DEBUG - send_request_body.complete
+2024-11-13 13:25:57,621 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-13 13:26:01,704 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 13 Nov 2024 07:56:00 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'x-ratelimit-remaining-tokens', b'1979271'), (b'request-context', b'appId='), (b'apim-request-id', b'faf0d8c9-89b2-492f-8241-fd661559445e'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-remaining-requests', b'19992'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'b6f2b677-5e94-4e6e-be44-7273114bc255'), (b'x-content-type-options', b'nosniff'), (b'azureml-model-session', b'd021-20241024132350'), (b'x-ms-region', b'East US'), (b'x-envoy-upstream-service-time', b'3637'), (b'x-ms-client-request-id', b'Not-Set'), (b'x-aml-cluster', b'vienna-eastus2-02'), (b'x-request-time', b'3.795'), (b'Content-Encoding', b'gzip')])
+2024-11-13 13:26:01,706 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 13:26:01,706 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-13 13:26:01,709 - DEBUG - receive_response_body.complete
+2024-11-13 13:26:01,709 - DEBUG - response_closed.started
+2024-11-13 13:26:01,709 - DEBUG - response_closed.complete
+2024-11-13 13:26:01,709 - DEBUG - HTTP Response: POST https://models.inference.ai.azure.com/chat/completions "200 OK" Headers({'date': 'Wed, 13 Nov 2024 07:56:00 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'x-ratelimit-remaining-tokens': '1979271', 'request-context': 'appId=', 'apim-request-id': 'faf0d8c9-89b2-492f-8241-fd661559445e', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-remaining-requests': '19992', 'x-ms-rai-invoked': 'true', 'x-request-id': 'b6f2b677-5e94-4e6e-be44-7273114bc255', 'x-content-type-options': 'nosniff', 'azureml-model-session': 'd021-20241024132350', 'x-ms-region': 'East US', 'x-envoy-upstream-service-time': '3637', 'x-ms-client-request-id': 'Not-Set', 'x-aml-cluster': 'vienna-eastus2-02', 'x-request-time': '3.795', 'content-encoding': 'gzip'})
+2024-11-13 13:26:01,710 - DEBUG - request_id: b6f2b677-5e94-4e6e-be44-7273114bc255
+2024-11-13 13:26:01,722 - INFO - API request made.
+2024-11-13 13:26:01,723 - INFO - Graded question 1: score 75.0
+2024-11-13 13:26:01,723 - INFO - Stored grade: 75.0 for student ID 3
+2024-11-13 13:26:04,223 - INFO - Feedback sent to sayan.saha.mtb.736146@gmail.com
+2024-11-13 13:26:04,272 - DEBUG - close.started
+2024-11-13 13:26:04,273 - DEBUG - close.complete
+2024-11-13 13:29:25,910 - INFO - Grade Once For Hello, sayan.saha.mtb.736146@gmail.com
+2024-11-13 13:29:25,910 - INFO - Starting grading process
+2024-11-13 13:29:25,913 - INFO - Initializing questions dictionary.
+2024-11-13 13:29:25,914 - DEBUG - Loaded question 1.
+2024-11-13 13:29:25,914 - INFO - Started Getting Solutions
+2024-11-13 13:29:25,916 - DEBUG - Loaded solution 1 from 3.
+2024-11-13 13:29:25,917 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-13 13:29:25,919 - DEBUG - load_verify_locations cafile='C:\\Users\\sayan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-13 13:29:26,424 - INFO - 
+-------------------------run_test_cases.py-------------
+Running Test Cases For
+Assignment: Hello
+Intern: 3
+2024-11-13 13:29:26,432 - INFO - Test Cases Passed 4, Out of 5
+2024-11-13 13:29:26,437 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\nSolution has not passed test case with input [1, 'a', 1, 'b', 'a'] result [1, 'a', 'b']\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Sabudh Foundation\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-13 13:29:26,570 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-13 13:29:26,570 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-13 13:29:27,017 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001457732A900>
+2024-11-13 13:29:27,017 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014577256450> server_hostname='models.inference.ai.azure.com' timeout=5.0
+2024-11-13 13:29:27,636 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000145773407D0>
+2024-11-13 13:29:27,636 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-13 13:29:27,636 - DEBUG - send_request_headers.complete
+2024-11-13 13:29:27,637 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-13 13:29:27,637 - DEBUG - send_request_body.complete
+2024-11-13 13:29:27,637 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-13 13:29:30,910 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 13 Nov 2024 07:59:29 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'x-ratelimit-remaining-tokens', b'1970285'), (b'request-context', b'appId='), (b'apim-request-id', b'8564bbd9-c483-4462-91b1-44a85f62795c'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-remaining-requests', b'19992'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'5c0be572-7842-49df-8938-41c03fce9516'), (b'x-content-type-options', b'nosniff'), (b'azureml-model-session', b'd024-20241024105842'), (b'x-ms-region', b'East US'), (b'x-envoy-upstream-service-time', b'2742'), (b'x-ms-client-request-id', b'Not-Set'), (b'x-aml-cluster', b'vienna-eastus2-01'), (b'x-request-time', b'2.914'), (b'Content-Encoding', b'gzip')])
+2024-11-13 13:29:30,913 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 13:29:30,913 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-13 13:29:30,915 - DEBUG - receive_response_body.complete
+2024-11-13 13:29:30,916 - DEBUG - response_closed.started
+2024-11-13 13:29:30,916 - DEBUG - response_closed.complete
+2024-11-13 13:29:30,916 - DEBUG - HTTP Response: POST https://models.inference.ai.azure.com/chat/completions "200 OK" Headers({'date': 'Wed, 13 Nov 2024 07:59:29 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'x-ratelimit-remaining-tokens': '1970285', 'request-context': 'appId=', 'apim-request-id': '8564bbd9-c483-4462-91b1-44a85f62795c', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-remaining-requests': '19992', 'x-ms-rai-invoked': 'true', 'x-request-id': '5c0be572-7842-49df-8938-41c03fce9516', 'x-content-type-options': 'nosniff', 'azureml-model-session': 'd024-20241024105842', 'x-ms-region': 'East US', 'x-envoy-upstream-service-time': '2742', 'x-ms-client-request-id': 'Not-Set', 'x-aml-cluster': 'vienna-eastus2-01', 'x-request-time': '2.914', 'content-encoding': 'gzip'})
+2024-11-13 13:29:30,917 - DEBUG - request_id: 5c0be572-7842-49df-8938-41c03fce9516
+2024-11-13 13:29:30,921 - INFO - API request made.
+2024-11-13 13:29:30,922 - INFO - Graded question 1: score 75.0
+2024-11-13 13:29:30,922 - INFO - Stored grade: 75.0 for student ID 3
+2024-11-13 13:29:33,764 - INFO - Feedback sent to sayan.saha.mtb.736146@gmail.com
+2024-11-13 13:29:33,818 - DEBUG - close.started
+2024-11-13 13:29:33,819 - DEBUG - close.complete
+2024-11-13 20:45:28,460 - INFO - Grade Once For Hello, sayan.saha.mtb.736146@gmail.com
+2024-11-13 20:45:28,461 - INFO - Starting grading process
+2024-11-13 20:45:28,464 - INFO - Initializing questions dictionary.
+2024-11-13 20:45:28,464 - DEBUG - Loaded question 1.
+2024-11-13 20:45:28,465 - INFO - Started Getting Solutions
+2024-11-13 20:45:28,485 - DEBUG - Loaded solution 1 from 3.
+2024-11-13 20:45:28,497 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-13 20:45:28,509 - DEBUG - load_verify_locations cafile='C:\\Users\\sayan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-13 20:45:28,998 - INFO - 
+-------------------------run_test_cases.py-------------
+Running Test Cases For
+Assignment: Hello
+Intern: 3
+2024-11-13 20:45:29,009 - INFO - Test Cases Passed 4, Out of 5
+2024-11-13 20:45:29,018 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\nSolution has not passed test case with input [1, 'a', 1, 'b', 'a'] result [1, 'a', 'b']\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Sabudh Foundation\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-13 20:45:29,170 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-13 20:45:29,170 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-13 20:45:29,657 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002071AF2E900>
+2024-11-13 20:45:29,658 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002071AE56450> server_hostname='models.inference.ai.azure.com' timeout=5.0
+2024-11-13 20:45:30,252 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002071AF407D0>
+2024-11-13 20:45:30,252 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-13 20:45:30,252 - DEBUG - send_request_headers.complete
+2024-11-13 20:45:30,253 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-13 20:45:30,253 - DEBUG - send_request_body.complete
+2024-11-13 20:45:30,253 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-13 20:45:36,282 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 13 Nov 2024 15:15:34 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'x-ratelimit-remaining-tokens', b'1981243'), (b'request-context', b'appId='), (b'apim-request-id', b'87f52c54-36a7-452e-8a81-c47ac8890037'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-remaining-requests', b'19997'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'3bd04889-f571-4eb3-a140-f79aea251fac'), (b'x-content-type-options', b'nosniff'), (b'azureml-model-session', b'd017-20241024091533'), (b'x-ms-region', b'East US'), (b'x-envoy-upstream-service-time', b'5570'), (b'x-ms-client-request-id', b'Not-Set'), (b'x-aml-cluster', b'vienna-eastus2-01'), (b'x-request-time', b'5.732'), (b'Content-Encoding', b'gzip')])
+2024-11-13 20:45:36,284 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 20:45:36,289 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-13 20:45:36,290 - DEBUG - receive_response_body.complete
+2024-11-13 20:45:36,291 - DEBUG - response_closed.started
+2024-11-13 20:45:36,291 - DEBUG - response_closed.complete
+2024-11-13 20:45:36,291 - DEBUG - HTTP Response: POST https://models.inference.ai.azure.com/chat/completions "200 OK" Headers({'date': 'Wed, 13 Nov 2024 15:15:34 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'x-ratelimit-remaining-tokens': '1981243', 'request-context': 'appId=', 'apim-request-id': '87f52c54-36a7-452e-8a81-c47ac8890037', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-remaining-requests': '19997', 'x-ms-rai-invoked': 'true', 'x-request-id': '3bd04889-f571-4eb3-a140-f79aea251fac', 'x-content-type-options': 'nosniff', 'azureml-model-session': 'd017-20241024091533', 'x-ms-region': 'East US', 'x-envoy-upstream-service-time': '5570', 'x-ms-client-request-id': 'Not-Set', 'x-aml-cluster': 'vienna-eastus2-01', 'x-request-time': '5.732', 'content-encoding': 'gzip'})
+2024-11-13 20:45:36,291 - DEBUG - request_id: 3bd04889-f571-4eb3-a140-f79aea251fac
+2024-11-13 20:45:36,299 - INFO - API request made.
+2024-11-13 20:45:36,300 - INFO - Graded question 1: score 70.0
+2024-11-13 20:45:36,300 - INFO - Stored grade: 70.0 for student ID 3
+2024-11-13 20:45:40,586 - INFO - Feedback sent to sayan.saha.mtb.736146@gmail.com
+2024-11-13 20:45:40,635 - DEBUG - close.started
+2024-11-13 20:45:40,637 - DEBUG - close.complete
+2024-11-13 20:59:45,433 - INFO - Grade Once For Hello, sayan.saha.mtb.736146@gmail.com
+2024-11-13 20:59:45,434 - INFO - Starting grading process
+2024-11-13 20:59:45,437 - INFO - Initializing questions dictionary.
+2024-11-13 20:59:45,438 - DEBUG - Loaded question 1.
+2024-11-13 20:59:45,438 - INFO - Started Getting Solutions
+2024-11-13 20:59:45,438 - DEBUG - Loaded solution 1 from 3.
+2024-11-13 20:59:45,439 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-13 20:59:45,448 - DEBUG - load_verify_locations cafile='C:\\Users\\sayan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-13 20:59:45,910 - INFO - 
+-------------------------run_test_cases.py-------------
+Running Test Cases For
+Assignment: Hello
+Intern: 3
+2024-11-13 20:59:45,918 - INFO - Test Cases Passed 4, Out of 5
+2024-11-13 20:59:45,923 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\nSolution has not passed test case with input [1, 'a', 1, 'b', 'a'] result [1, 'a', 'b']\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Gropu NO -3\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-13 20:59:46,056 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-13 20:59:46,056 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-13 20:59:46,542 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000223A497EA50>
+2024-11-13 20:59:46,542 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000223A48AA3C0> server_hostname='models.inference.ai.azure.com' timeout=5.0
+2024-11-13 20:59:47,064 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000223A49907D0>
+2024-11-13 20:59:47,064 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-13 20:59:47,065 - DEBUG - send_request_headers.complete
+2024-11-13 20:59:47,065 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-13 20:59:47,069 - DEBUG - send_request_body.complete
+2024-11-13 20:59:47,069 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-13 20:59:50,167 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 13 Nov 2024 15:29:48 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'x-ratelimit-remaining-tokens', b'1986699'), (b'request-context', b'appId='), (b'apim-request-id', b'0d8bb2a1-8042-4038-8d9e-6244da3df958'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-remaining-requests', b'19994'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'9cb95cee-1d83-40d8-9dd8-43d034d45ce6'), (b'x-content-type-options', b'nosniff'), (b'azureml-model-session', b'd016-20241024080655'), (b'x-ms-region', b'East US'), (b'x-envoy-upstream-service-time', b'2703'), (b'x-ms-client-request-id', b'Not-Set'), (b'x-aml-cluster', b'vienna-eastus2-01'), (b'x-request-time', b'2.808'), (b'Content-Encoding', b'gzip')])
+2024-11-13 20:59:50,168 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 20:59:50,168 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-13 20:59:50,169 - DEBUG - receive_response_body.complete
+2024-11-13 20:59:50,169 - DEBUG - response_closed.started
+2024-11-13 20:59:50,169 - DEBUG - response_closed.complete
+2024-11-13 20:59:50,170 - DEBUG - HTTP Response: POST https://models.inference.ai.azure.com/chat/completions "200 OK" Headers({'date': 'Wed, 13 Nov 2024 15:29:48 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'x-ratelimit-remaining-tokens': '1986699', 'request-context': 'appId=', 'apim-request-id': '0d8bb2a1-8042-4038-8d9e-6244da3df958', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-remaining-requests': '19994', 'x-ms-rai-invoked': 'true', 'x-request-id': '9cb95cee-1d83-40d8-9dd8-43d034d45ce6', 'x-content-type-options': 'nosniff', 'azureml-model-session': 'd016-20241024080655', 'x-ms-region': 'East US', 'x-envoy-upstream-service-time': '2703', 'x-ms-client-request-id': 'Not-Set', 'x-aml-cluster': 'vienna-eastus2-01', 'x-request-time': '2.808', 'content-encoding': 'gzip'})
+2024-11-13 20:59:50,170 - DEBUG - request_id: 9cb95cee-1d83-40d8-9dd8-43d034d45ce6
+2024-11-13 20:59:50,176 - INFO - API request made.
+2024-11-13 20:59:50,177 - INFO - Graded question 1: score 75.0
+2024-11-13 20:59:50,177 - INFO - Stored grade: 75.0 for student ID 3
+2024-11-13 20:59:54,452 - INFO - Feedback sent to sayan.saha.mtb.736146@gmail.com
+2024-11-13 20:59:54,503 - DEBUG - close.started
+2024-11-13 20:59:54,504 - DEBUG - close.complete
+2024-11-14 09:57:42,611 - INFO - Grade Once For Hello, sayan.saha.mtb.736146@gmail.com
+2024-11-14 09:57:42,611 - INFO - Starting grading process
+2024-11-14 09:57:42,614 - INFO - Initializing questions dictionary.
+2024-11-14 09:57:42,614 - DEBUG - Loaded question 1.
+2024-11-14 09:57:42,614 - INFO - Started Getting Solutions
+2024-11-14 09:57:42,614 - DEBUG - Loaded solution 1 from 3.
+2024-11-14 09:57:42,616 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-14 09:57:42,626 - DEBUG - load_verify_locations cafile='C:\\Users\\sayan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-14 09:57:43,106 - INFO - 
+-------------------------run_test_cases.py-------------
+Running Test Cases For
+Assignment: Hello
+Intern: 3
+2024-11-14 09:57:43,119 - INFO - Test Cases Passed 4, Out of 5
+2024-11-14 09:57:43,126 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\nSolution has not passed test case with input [1, 'a', 1, 'b', 'a'] result [1, 'a', 'b']\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Gropu NO -3\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-14 09:57:43,269 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-14 09:57:43,270 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-14 09:57:43,280 - DEBUG - connect_tcp.failed exception=ConnectError(gaierror(11001, 'getaddrinfo failed'))
+2024-11-14 09:57:43,281 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_backends\sync.py", line 205, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 990, in _request
+    response = self._client.send(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 926, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 954, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 991, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 1027, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 235, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2024-11-14 09:57:43,486 - DEBUG - 2 retries left
+2024-11-14 09:57:43,486 - INFO - Retrying request to /chat/completions in 0.473553 seconds
+2024-11-14 09:57:43,960 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\nSolution has not passed test case with input [1, 'a', 1, 'b', 'a'] result [1, 'a', 'b']\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Gropu NO -3\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-14 09:57:43,961 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-14 09:57:43,962 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-14 09:57:43,963 - DEBUG - connect_tcp.failed exception=ConnectError(gaierror(11001, 'getaddrinfo failed'))
+2024-11-14 09:57:43,963 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_backends\sync.py", line 205, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 990, in _request
+    response = self._client.send(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 926, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 954, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 991, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 1027, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 235, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2024-11-14 09:57:43,968 - DEBUG - 1 retry left
+2024-11-14 09:57:43,968 - INFO - Retrying request to /chat/completions in 0.960423 seconds
+2024-11-14 09:57:44,930 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\nSolution has not passed test case with input [1, 'a', 1, 'b', 'a'] result [1, 'a', 'b']\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Gropu NO -3\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-14 09:57:44,930 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-14 09:57:44,931 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-14 09:57:44,931 - DEBUG - connect_tcp.failed exception=ConnectError(gaierror(11001, 'getaddrinfo failed'))
+2024-11-14 09:57:44,932 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_backends\sync.py", line 205, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 990, in _request
+    response = self._client.send(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 926, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 954, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 991, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 1027, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 235, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2024-11-14 09:57:44,936 - DEBUG - Raising connection error
+2024-11-14 09:57:44,936 - ERROR - Error grading question 1: Connection error.
+2024-11-14 09:57:44,937 - INFO - Stored grade: 0.0 for student ID 3
+2024-11-14 09:57:44,938 - INFO - Feedback sent to sayan.saha.mtb.736146@gmail.com
+2024-11-14 10:00:24,026 - INFO - Grade Once For Hello, sayan.saha.mtb.736146@gmail.com
+2024-11-14 10:00:24,026 - INFO - Starting grading process
+2024-11-14 10:00:24,028 - INFO - Initializing questions dictionary.
+2024-11-14 10:00:24,029 - DEBUG - Loaded question 1.
+2024-11-14 10:00:24,029 - INFO - Started Getting Solutions
+2024-11-14 10:00:24,029 - DEBUG - Loaded solution 1 from 3.
+2024-11-14 10:00:24,030 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-14 10:00:24,033 - DEBUG - load_verify_locations cafile='C:\\Users\\sayan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-14 10:00:24,466 - INFO - 
+-------------------------run_test_cases.py-------------
+Running Test Cases For
+Assignment: Hello
+Intern: 3
+2024-11-14 10:00:24,473 - INFO - Test Cases Passed 4, Out of 5
+2024-11-14 10:00:24,480 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\nSolution has not passed test case with input [1, 'a', 1, 'b', 'a'] result [1, 'a', 'b']\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Gropu NO -3\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-14 10:00:24,599 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-14 10:00:24,600 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-14 10:00:24,608 - DEBUG - connect_tcp.failed exception=ConnectError(gaierror(11001, 'getaddrinfo failed'))
+2024-11-14 10:00:24,608 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_backends\sync.py", line 205, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 990, in _request
+    response = self._client.send(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 926, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 954, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 991, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 1027, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 235, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2024-11-14 10:00:24,617 - DEBUG - 2 retries left
+2024-11-14 10:00:24,617 - INFO - Retrying request to /chat/completions in 0.377654 seconds
+2024-11-14 10:00:24,995 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\nSolution has not passed test case with input [1, 'a', 1, 'b', 'a'] result [1, 'a', 'b']\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Gropu NO -3\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-14 10:00:24,996 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-14 10:00:24,997 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-14 10:00:25,002 - DEBUG - connect_tcp.failed exception=ConnectError(gaierror(11001, 'getaddrinfo failed'))
+2024-11-14 10:00:25,002 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_backends\sync.py", line 205, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 990, in _request
+    response = self._client.send(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 926, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 954, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 991, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 1027, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 235, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2024-11-14 10:00:25,008 - DEBUG - 1 retry left
+2024-11-14 10:00:25,009 - INFO - Retrying request to /chat/completions in 0.790880 seconds
+2024-11-14 10:00:25,800 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a python function for selecting unique elements of an array and return them as a list.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'\n\n- The Function should take a single list as input.\n\n- The Function should output a list of unique elements.\n\n--Constrains End--\n    Answer: def solution(arr):\n    # Convert the list to a set to get unique elements, then back to a list\n    return list(set(arr))\nSolution has not passed test case with input [1, 'a', 1, 'b', 'a'] result [1, 'a', 'b']\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Gropu NO -3\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-14 10:00:25,801 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-14 10:00:25,801 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-14 10:00:25,802 - DEBUG - connect_tcp.failed exception=ConnectError(gaierror(11001, 'getaddrinfo failed'))
+2024-11-14 10:00:25,802 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_sync\connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_backends\sync.py", line 205, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 990, in _request
+    response = self._client.send(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 926, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 954, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 991, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_client.py", line 1027, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 235, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\sayan\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_transports\default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2024-11-14 10:00:25,807 - DEBUG - Raising connection error
+2024-11-14 10:00:25,807 - ERROR - Error grading question 1: Connection error.
+2024-11-14 10:00:25,807 - INFO - Stored grade: 0.0 for student ID 3
+2024-11-14 10:00:25,809 - INFO - Feedback sent to sayan.saha.mtb.736146@gmail.com
+2024-11-14 10:07:36,929 - INFO - Grade Once For DSA_7, sayan.saha.mtb.736146@gmail.com
+2024-11-14 10:07:36,930 - INFO - Starting grading process
+2024-11-14 10:07:36,933 - INFO - Initializing questions dictionary.
+2024-11-14 10:07:36,934 - DEBUG - Loaded question 1.
+2024-11-14 10:07:36,936 - DEBUG - Loaded question 2.
+2024-11-14 10:07:36,936 - INFO - Started Getting Solutions
+2024-11-14 10:07:36,954 - DEBUG - Loaded solution 1 from 3.
+2024-11-14 10:07:36,971 - DEBUG - Loaded solution 2 from 3.
+2024-11-14 10:07:36,973 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-14 10:07:36,986 - DEBUG - load_verify_locations cafile='C:\\Users\\sayan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-14 10:07:37,609 - INFO - 
+-------------------------run_test_cases.py-------------
+Running Test Cases For
+Assignment: DSA_7
+Intern: 3
+2024-11-14 10:07:37,627 - INFO - Test Cases Passed 4, Out of 4
+2024-11-14 10:07:37,639 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a function to solve n_queens problems.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'.\n\n- The Function should take an integer `n` as input, representing the number of queens.\n\n- The Function should output a list of lists, where each inner list represents a valid configuration of queens on an `n x n` chessboard. Each element in the inner list represents the column index of the queen in that row.\n\n--Constrains End--\n    Answer: def solution(n):\n    def backtrack(row, queens, columns, diagonals1, diagonals2):\n        if row == n:\n            # If we have placed all queens, add the solution\n            results.append(queens[:])\n            return\n        \n        for col in range(n):\n            # Check if placing a queen here is valid\n            if col in columns or (row - col) in diagonals1 or (row + col) in diagonals2:\n                continue\n            \n            # Place the queen\n            queens.append(col)\n            columns.add(col)\n            diagonals1.add(row - col)\n            diagonals2.add(row + col)\n            \n            # Move to the next row\n            backtrack(row + 1, queens, columns, diagonals1, diagonals2)\n            \n            # Backtrack\n            queens.pop()\n            columns.remove(col)\n            diagonals1.remove(row - col)\n            diagonals2.remove(row + col)\n    \n    results = []\n    backtrack(0, [], set(), set(), set())\n    return results\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Gropu NO -3\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-14 10:07:37,809 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-14 10:07:37,809 - DEBUG - connect_tcp.started host='models.inference.ai.azure.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-11-14 10:07:38,858 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001FF8395E900>
+2024-11-14 10:07:38,859 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001FF838B59A0> server_hostname='models.inference.ai.azure.com' timeout=5.0
+2024-11-14 10:07:39,590 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001FF839707D0>
+2024-11-14 10:07:39,590 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-14 10:07:39,590 - DEBUG - send_request_headers.complete
+2024-11-14 10:07:39,591 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-14 10:07:39,591 - DEBUG - send_request_body.complete
+2024-11-14 10:07:39,591 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-14 10:07:42,853 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 14 Nov 2024 04:37:41 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'x-ratelimit-remaining-tokens', b'1985064'), (b'request-context', b'appId='), (b'apim-request-id', b'06067ffc-271d-4cfc-b961-45d43b46341c'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-remaining-requests', b'19994'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'225baaba-2d5a-4f9b-ba44-d0c4cffa199c'), (b'x-content-type-options', b'nosniff'), (b'azureml-model-session', b'd010-20241024105940'), (b'x-ms-region', b'East US'), (b'x-envoy-upstream-service-time', b'2470'), (b'x-ms-client-request-id', b'Not-Set'), (b'x-aml-cluster', b'vienna-eastus2-02'), (b'x-request-time', b'2.728'), (b'Content-Encoding', b'gzip')])
+2024-11-14 10:07:42,854 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 10:07:42,856 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-14 10:07:42,857 - DEBUG - receive_response_body.complete
+2024-11-14 10:07:42,858 - DEBUG - response_closed.started
+2024-11-14 10:07:42,858 - DEBUG - response_closed.complete
+2024-11-14 10:07:42,858 - DEBUG - HTTP Response: POST https://models.inference.ai.azure.com/chat/completions "200 OK" Headers({'date': 'Thu, 14 Nov 2024 04:37:41 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'x-ratelimit-remaining-tokens': '1985064', 'request-context': 'appId=', 'apim-request-id': '06067ffc-271d-4cfc-b961-45d43b46341c', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-remaining-requests': '19994', 'x-ms-rai-invoked': 'true', 'x-request-id': '225baaba-2d5a-4f9b-ba44-d0c4cffa199c', 'x-content-type-options': 'nosniff', 'azureml-model-session': 'd010-20241024105940', 'x-ms-region': 'East US', 'x-envoy-upstream-service-time': '2470', 'x-ms-client-request-id': 'Not-Set', 'x-aml-cluster': 'vienna-eastus2-02', 'x-request-time': '2.728', 'content-encoding': 'gzip'})
+2024-11-14 10:07:42,858 - DEBUG - request_id: 225baaba-2d5a-4f9b-ba44-d0c4cffa199c
+2024-11-14 10:07:42,865 - INFO - API request made.
+2024-11-14 10:07:42,865 - INFO - Graded question 1: score 95.0
+2024-11-14 10:07:42,866 - INFO - 
+-------------------------run_test_cases.py-------------
+Running Test Cases For
+Assignment: DSA_7
+Intern: 3
+2024-11-14 10:07:42,873 - INFO - Test Cases Passed 4, Out of 5
+2024-11-14 10:07:42,878 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an expert in Python algorithms and data structures. Your task is to evaluate student answers and provide a score along with detailed feedback. Always start with 'Score: X/{full_score}'. If the answer is irrelevant, give a score of 0/{full_score}."}, {'role': 'user', 'content': "Evaluate the following assignment for total score100:\n\n    Question: ------------------------DESCRIPTION----------------\nQuestion: `Write a function to do DFS of graph using stacks.`\n\n\n\n\n\n\n\n--Constrains Start--\n\n- The Function should be named 'solution'.\n\n- The Function should take a graph (as a dictionary) and a starting node (as an integer) as input.\n\n- The Function should output a list of nodes in the order they were visited during the DFS traversal.\n\n--Constrains End--\n    Answer: def solution(graph, start):\n    stack = [start]  # Initialize stack with the starting node\n    visited = set()  # To keep track of visited nodes\n    traversal = []   # To store the order of visited nodes\n\n    while stack:\n        node = stack.pop()  # Pop a node from the stack\n\n        if node not in visited:\n            visited.add(node)      # Mark the node as visited\n            traversal.append(node) # Add it to the traversal order\n\n            # Add unvisited neighbors to the stack\n            # We use reversed() to ensure we visit nodes in the correct order\n            for neighbor in reversed(graph.get(node, [])):\n                if neighbor not in visited:\n                    stack.append(neighbor)\n\n    return traversal\nSolution has not passed test case 4 with inputs graph4, 0 result []\n```json\nScoring Criteria:\n\n    Correctness (40%): Is the solution logically correct and does it solve the problem?\n    Efficiency (30%): Is the solution optimized in terms of time and space complexity?\n    Code Quality (20%): Is the code well-organized, readable, and properly commented?\n    Creativity (10%): Does the solution demonstrate innovative thinking or unique approaches?\n\nFeedback Guidelines:\n\n    Provide a breakdown of the score based on the criteria.\n    Highlight strengths and suggest specific improvements.\n    Use bullet points for clarity.\n\nExample Output:\n\nScore: 8.5/100(100 total score)\n\nFeedback:\n\n    Well done on solving the problem correctly.\n    Consider optimizing the loop to reduce time complexity.\n    Add comments to improve code readability.\n\nBest regards, Gropu NO -3\n```\n"}], 'model': 'gpt-4o-mini', 'max_tokens': 1200, 'temperature': 1.0, 'top_p': 1.0}}
+2024-11-14 10:07:42,879 - DEBUG - Sending HTTP Request: POST https://models.inference.ai.azure.com/chat/completions
+2024-11-14 10:07:42,880 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-14 10:07:42,880 - DEBUG - send_request_headers.complete
+2024-11-14 10:07:42,880 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-14 10:07:42,881 - DEBUG - send_request_body.complete
+2024-11-14 10:07:42,881 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-14 10:07:46,026 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 14 Nov 2024 04:37:44 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'x-ratelimit-remaining-tokens', b'1988033'), (b'request-context', b'appId='), (b'apim-request-id', b'ccdf5128-870b-4555-960e-d55aa38a80d4'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-remaining-requests', b'19995'), (b'x-ms-rai-invoked', b'true'), (b'x-request-id', b'2756eecd-4a74-499b-af2b-231a97240a29'), (b'x-content-type-options', b'nosniff'), (b'azureml-model-session', b'd032-20241024122620'), (b'x-ms-region', b'East US'), (b'x-envoy-upstream-service-time', b'2585'), (b'x-ms-client-request-id', b'Not-Set'), (b'x-aml-cluster', b'vienna-eastus2-02'), (b'x-request-time', b'2.716'), (b'Content-Encoding', b'gzip')])
+2024-11-14 10:07:46,027 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 10:07:46,028 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-14 10:07:46,028 - DEBUG - receive_response_body.complete
+2024-11-14 10:07:46,029 - DEBUG - response_closed.started
+2024-11-14 10:07:46,029 - DEBUG - response_closed.complete
+2024-11-14 10:07:46,029 - DEBUG - HTTP Response: POST https://models.inference.ai.azure.com/chat/completions "200 OK" Headers({'date': 'Thu, 14 Nov 2024 04:37:44 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'x-ratelimit-remaining-tokens': '1988033', 'request-context': 'appId=', 'apim-request-id': 'ccdf5128-870b-4555-960e-d55aa38a80d4', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-remaining-requests': '19995', 'x-ms-rai-invoked': 'true', 'x-request-id': '2756eecd-4a74-499b-af2b-231a97240a29', 'x-content-type-options': 'nosniff', 'azureml-model-session': 'd032-20241024122620', 'x-ms-region': 'East US', 'x-envoy-upstream-service-time': '2585', 'x-ms-client-request-id': 'Not-Set', 'x-aml-cluster': 'vienna-eastus2-02', 'x-request-time': '2.716', 'content-encoding': 'gzip'})
+2024-11-14 10:07:46,029 - DEBUG - request_id: 2756eecd-4a74-499b-af2b-231a97240a29
+2024-11-14 10:07:46,030 - INFO - API request made.
+2024-11-14 10:07:46,031 - INFO - Graded question 2: score 80.0
+2024-11-14 10:07:46,036 - INFO - Stored grade: 87.5 for student ID 3
+2024-11-14 10:07:52,173 - INFO - Feedback sent to sayan.saha.mtb.736146@gmail.com
+2024-11-14 10:07:52,219 - DEBUG - close.started
+2024-11-14 10:07:52,220 - DEBUG - close.complete
